@@ -10,6 +10,61 @@ This project fetches the current and upcoming map rotations for Apex Legends and
 
 ## Installation
 
+### Installing Python and pip
+
+#### Windows
+
+1. Download the Python installer from the [official Python website](https://www.python.org/downloads/windows/).
+2. Run the installer and ensure that the "Add Python to PATH" option is checked.
+3. Follow the installation instructions.
+4. Open Command Prompt and verify the installation by running:
+
+    ```sh
+    python --version
+    pip --version
+    ```
+
+#### macOS
+
+1. Open Terminal.
+2. Install Homebrew if you don't have it already by running:
+
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+3. Install Python by running:
+
+    ```sh
+    brew install python
+    ```
+
+4. Verify the installation by running:
+
+    ```sh
+    python3 --version
+    pip3 --version
+    ```
+
+#### Linux
+
+1. Open Terminal.
+2. Use your package manager to install Python. For example, on Debian-based distributions (like Ubuntu), run:
+
+    ```sh
+    sudo apt update
+    sudo apt install python3 python3-pip
+    ```
+
+3. Verify the installation by running:
+
+    ```sh
+    python3 --version
+    pip3 --version
+    ```
+
+### Project Setup
+
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Install the required Python packages:
@@ -51,7 +106,7 @@ DISCORD_WEBHOOK_URL=YOUR_DISCORD_WEBHOOK_URL
 
 Alternatively, you can use the provided `env_creator.py` script to create the `.env` file:
 
-1. Run the .env creator script:
+1. Run the script:
 
     ```sh
     python env_creator.py
