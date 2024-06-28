@@ -123,7 +123,3 @@ python apex_map_bot.py
 ```
 
 The bot will fetch the current and upcoming map rotations for Apex Legends and post the information to the specified Discord channel every 10 minutes.
-
-## License
-
-This project is licensed under the MIT License.
